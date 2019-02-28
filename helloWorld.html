@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 1</title>
+    <script type="text/javascript">
+
+       var fun1 = function(){
+
+           console.log("Hello world");
+
+       }
+
+       function fun2(x){
+
+           x();
+       }
+
+       fun2(fun1);
+
+       var vehicle = {"name" : "Axio", "YOM": "2016", "Manufacturer": "Toyota",
+
+           readDet: function(){
+                console.log("The vehicle's name is "+this.name+ ", it was made in the year "+this.YOM+ ". "+ this.Manufacturer
+                    + " manufactured this vehicle.");
+
+           }
+
+       };
+
+       vehicle.readDet();
+       console.log(vehicle.name);
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
