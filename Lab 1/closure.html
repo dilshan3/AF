@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Closures</title>
+</head>
+<body>
+<script type="text/javascript">
+
+    function taxCalculator(tax){
+        let texPercentage = tax;
+
+        return function(amount){
+            return amount * tax / 100.0;
+        }
+    }
+
+    var calc = taxCalculator(this);
+
+    console.log(calc(2000));
+
+</script>
+</body>
+</html>

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18f4a3d5-e83e-4474-af92-cc897d0bf924" name="Default Changelist" comment="" />
+    <list default="true" id="18f4a3d5-e83e-4474-af92-cc897d0bf924" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lab 1/closure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab 1/this.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiCallback.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 1/apiCallback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloWorld.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 1/helloWorld.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apiCallback.html">
+        <entry file="file://$PROJECT_DIR$/Lab 1/closure.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+            <state relative-caret-position="268">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -41,13 +47,17 @@
         <option value="$PROJECT_DIR$/callback.html" />
         <option value="$PROJECT_DIR$/apiCallback.html" />
         <option value="$PROJECT_DIR$/lab2.html" />
+        <option value="$PROJECT_DIR$/CallbackHell.html" />
+        <option value="$PROJECT_DIR$/Lab 1/helloWorld.html" />
+        <option value="$PROJECT_DIR$/Lab 1/this.html" />
+        <option value="$PROJECT_DIR$/Lab 1/closure.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="28" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -55,7 +65,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -63,10 +72,16 @@
               <item name="LAB1AF" type="b2602c69:ProjectViewProjectNode" />
               <item name="LAB1AF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LAB1AF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB1AF" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab 1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -76,6 +91,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dilshan Prasad\WebstormProjects\LAB1AF\Lab 1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -107,7 +127,10 @@
       <workItem from="1551262233333" duration="204000" />
       <workItem from="1551264352545" duration="1344000" />
       <workItem from="1551366124922" duration="2636000" />
-      <workItem from="1551546925723" duration="1658000" />
+      <workItem from="1551546925723" duration="2440000" />
+      <workItem from="1552413207352" duration="557000" />
+      <workItem from="1552495333217" duration="631000" />
+      <workItem from="1552928742162" duration="2446000" />
     </task>
     <task id="LOCAL-00001" summary="xzc">
       <created>1551552445210</created>
@@ -116,16 +139,24 @@
       <option name="project" value="LOCAL" />
       <updated>1551552445210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&#10;&#10;ddd">
+      <created>1551552687250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551552687250</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14302000" />
+    <option name="totallyTimeSpent" value="18718000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119878605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -136,7 +167,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.33388704" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -149,16 +180,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xzc" />
-    <option name="LAST_COMMIT_MESSAGE" value="xzc" />
+    <MESSAGE value="&#10;&#10;ddd" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;&#10;ddd" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/helloWorld.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/callback.html" />
     <entry file="file://$USER_HOME$/Documents/GitHub/AF/Lab1">
       <provider selected="true" editor-type-id="text-editor">
@@ -167,17 +192,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+    <entry file="file://$PROJECT_DIR$/lab2.html" />
+    <entry file="file://$PROJECT_DIR$/CallbackHell.html" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apiCallback.html">
+    <entry file="file://$PROJECT_DIR$/Lab 1/apiCallback.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab 1/helloWorld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab 1/this.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab 1/closure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
